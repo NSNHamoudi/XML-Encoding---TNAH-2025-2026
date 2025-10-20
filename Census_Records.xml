@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE censusPage SYSTEM "Census_Records.dtd">
+<censusPage>
+    <designation>
+        <neighbourhood></neighbourhood>
+        <street></street>
+    </designation>
+    <number>
+        <house></house>
+        <household></household>
+    </number>
+    <person>
+        <surname></surname>
+        <maidenName></maidenName>
+        <name></name>
+        <title></title>
+        <maritalStatus type="girl"/> <!-- those are test values -->
+        <age></age>
+        <nationality type="french"/> <!-- those are test values -->
+        <birthplace></birthplace>
+    </person>
+    <observations></observations>
+</censusPage>

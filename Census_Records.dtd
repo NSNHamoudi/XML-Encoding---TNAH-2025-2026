@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT censusRecord (censusPage+) >
+<!ELEMENT censusPage (designation,number,person,observations?) >
+<!ELEMENT designation (neighbourhood, street) >
+<!ELEMENT neighbourhood (#PCDATA)  >
+<!ELEMENT street (#PCDATA) >
+<!ELEMENT number (house,household) >
+<!ELEMENT house (#PCDATA) >
+<!ELEMENT household (#PCDATA) >
+<!ELEMENT person (surname,maidenName?,name,title,maritalStatus,age,nationality,birthplace) >
+<!ELEMENT surname (#PCDATA) >
+<!ELEMENT maidenName (#PCDATA) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT maritalStatus EMPTY >
+<!ATTLIST maritalStatus type (boy | marriedMan | widower | girl | marriedWoman | widow) #REQUIRED >
+<!ELEMENT age (#PCDATA) >
+<!ELEMENT nationality (#PCDATA) > <!-- Only filled when nationality = 'other' -->
+<!ATTLIST nationality type (french | other) #REQUIRED  > 
+<!ELEMENT birthplace (#PCDATA)>
+<!ELEMENT observations (#PCDATA) >
