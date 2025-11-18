@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dénombrement de la population. - 1872. -- État nominatif des habitants de
+                  <placeName ref="#Tours">Tours</placeName> -- Section de la Cathédrale</title>
+         </titleStmt>
+         <publicationStmt>
+            <distributor/>
+            <address>
+               <addrLine>Archives départementales d'Indre-et-Loire</addrLine>
+               <addrLine>6 rue des Ursulines</addrLine>
+               <addrLine>37000 Tours</addrLine>
+               <addrLine>France</addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Imprimerie Paul Dupont</publisher>
+                     <date when="1872">1872</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <country>France</country>
+                     <settlement ref="#Tours">Tours</settlement>
+                     <repository>Archives départementales d'Indre-et-Loire</repository>
+                     <idno type="Cote">6NUM5/261/018</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <author/>
+                        <title/>
+                        <textLang mainLang="fr">Français</textLang>
+                     </msItem>
+                  </msContents>
+               </msDesc>
+            </listBibl>
+            <listPlace>
+               <place xml:id="Tours">
+                  <placeName>Tours</placeName>
+                  <location>
+                     <geo>47.39484 0.70398</geo>
+                  </location>
+                  <idno type="wikidata">Q288</idno>
+               </place>
+               <place xml:id="Sarthe">
+                  <placeName>Sarthe</placeName>
+                  <location>
+                     <geo>48.00493 0.26516</geo>
+                  </location>
+                  <idno type="wikidata">Q12740</idno>
+               </place>
+               <place xml:id="Garn">
+                  <placeName>Haute-Garonne</placeName>
+                  <location>
+                     <geo>43.38724 1.22191</geo>
+                  </location>
+                  <idno type="wikidata">Q12538</idno>
+               </place>
+               <place xml:id="MtL">
+                  <placeName>Montlouis-sur-Loire</placeName>
+                  <location>
+                     <geo>47.38845 0.83208</geo>
+                  </location>
+                  <idno type="wikidata">Q638668</idno>
+               </place>
+               <place xml:id="Chap">
+                  <placeName>La Chapelle-sur-Loire</placeName>
+                  <location>
+                     <geo>47.25063 0.21887</geo>
+                  </location>
+                  <idno type="wikidata">Q977486</idno>
+               </place>
+               <place xml:id="Angers">
+                  <placeName>Angers</placeName>
+                  <location>
+                     <geo>47.47156 -0.55202</geo>
+                  </location>
+                  <idno type="wikidata">Q38380</idno>
+               </place>
+               <place xml:id="Beaulieu">
+                  <placeName>Beaulieu-lès-Loches</placeName>
+                  <location>
+                     <geo>47.12526 1.01585</geo>
+                  </location>
+                  <idno type="wikidata">Q1136125</idno>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1872</date>
+         </creation>
+         <langUsage>
+            <language ident="fr">Français</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="record">
+            <pb n="3"/>
+            <div place="SectionCathédrale">
+               <div type="rue" subtype="QuaiDuVieuxPont">
+                  <div type="numéro" subtype="numéroMaison" n="6suite">
+                     <div type="numéro" subtype="numéroMénage" n="11suite">
+                        <listPerson>
+                           <person sex="M" role="TailleurPierre" age="22">
+                              <persName>
+                                 <forename>Jules François</forename>
+                                 <surname type="birth">Douin</surname>
+                              </persName>
+                              <state role="Boy">
+                                 <label>Garçon</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">Tours</placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="F" role="Couturière" age="19">
+                              <persName>
+                                 <forename>Marie</forename>
+                                 <surname type="birth">Douin</surname>
+                              </persName>
+                              <state role="Girl">
+                                 <label>Fille</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Tours</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="F" role="Fille" age="16">
+                              <persName>
+                                 <forename>Louise</forename>
+                                 <surname type="birth">Douin</surname>
+                              </persName>
+                              <state role="Girl">
+                                 <label>Fille</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Tours</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="F" role="Fille" age="13">
+                              <persName>
+                                 <forename>Ernestine</forename>
+                                 <surname type="birth">Douin</surname>
+                              </persName>
+                              <state role="Girl">
+                                 <label>Fille</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Tours</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="M" role="Fils" age="11">
+                              <persName>
+                                 <forename>Hippolyte</forename>
+                                 <surname type="birth">Douin</surname>
+                              </persName>
+                              <state role="Boy">
+                                 <label>Fils</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Tours</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="M" role="Fils" age="8">
+                              <persName>
+                                 <forename>Alphonse</forename>
+                                 <surname type="birth">Douin</surname>
+                              </persName>
+                              <state role="Boy">
+                                 <label>Fils</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Tours</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="F" role="Fille" age="4">
+                              <persName>
+                                 <forename>Clémentine</forename>
+                                 <surname type="birth">Douin</surname>
+                              </persName>
+                              <state role="Girl">
+                                 <label>Fille</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Tours</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                        </listPerson>
+                     </div>
+                  </div>
+                  <div type="numéro" subtype="numéroMaison" n="7">
+                     <div type="numéro" subtype="numéroMénage" n="12">
+                        <listPerson>
+                           <person sex="M" role="Marinier" age="50">
+                              <persName>
+                                 <forename>René</forename>
+                                 <surname type="birth">Gouré</surname>
+                              </persName>
+                              <state role="MarriedMan">
+                                 <label>Homme marié</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                           </person>
+                           <person sex="F" role="Blanchisseuse" age="49">
+                              <persName>
+                                 <forename>Désirée</forename>
+                                 <surname type="birth">Ruisseau</surname>
+                                 <surname type="married">Gouré</surname>
+                              </persName>
+                              <state role="MarriedWoman">
+                                 <label>Femme mariée</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Tours</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                        </listPerson>
+                     </div>
+                  </div>
+               </div>
+               <div type="rue" subtype="IleOcart">
+                  <div type="numéro" subtype="numéroMénage" n="13">
+                     <listPerson>
+                        <person sex="F" age="49">
+                           <persName>
+                              <forename>Marie Anette</forename>
+                              <surname type="birth">Soloman</surname>
+                              <surname type="widowed">Bodin</surname>
+                           </persName>
+                           <state role="Widow">
+                              <label>Veuve</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">
+                                    <choice>
+                                       <orig>d°</orig>
+                                       <corr>Tours</corr>
+                                    </choice>
+                                 </placeName>
+                              </name>
+                           </birth>
+                        </person>
+                        <person sex="F" role="Domestique" age="67">
+                           <persName>
+                              <forename>Louise</forename>
+                              <surname type="birth">Brasillier</surname>
+                           </persName>
+                           <state role="Girl">
+                              <label>Fille</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Sarthe">Sarthe</placeName>
+                              </name>
+                           </birth>
+                        </person>
+                        <person sex="M" role="Domestique" age="70">
+                           <persName>
+                              <forename>Pierre</forename>
+                              <surname type="birth">Tousalin</surname>
+                           </persName>
+                           <state role="Widower">
+                              <label>Veuf</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">Tours</placeName>
+                              </name>
+                           </birth>
+                        </person>
+                     </listPerson>
+                  </div>
+               </div>
+               <div type="rue" subtype="PontStSymphorien">
+                  <div type="numéro" subtype="numéroMénage" n="14">
+                     <listPerson>
+                        <person sex="F" role="Receveuse" age="35">
+                           <persName>
+                              <forename>Marie</forename>
+                              <surname type="birth">Dignat</surname>
+                              <surname type="widowed">Sergent</surname>
+                           </persName>
+                           <state role="Widow">
+                              <label>Veuve</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Garn">Garonne</placeName>
+                              </name>
+                           </birth>
+                        </person>
+                        <person sex="M" role="Charpentier" age="27">
+                           <persName>
+                              <forename>Pierre</forename>
+                              <surname type="birth">Dignat</surname>
+                           </persName>
+                           <state role="Boy">
+                              <label>Garçon</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Garn">
+                                    <choice>
+                                       <orig>d°</orig>
+                                       <corr>Garonne</corr>
+                                    </choice>
+                                 </placeName>
+                              </name>
+                           </birth>
+                        </person>
+                     </listPerson>
+                  </div>
+               </div>
+               <div type="rue" subtype="QuaiGareDuCanal">
+                  <div type="numéro" subtype="numéroMénage" n="15">
+                     <listPerson>
+                        <person sex="M" role="Platrier" age="53">
+                           <persName>
+                              <forename>Louis</forename>
+                              <surname type="birth">Breton</surname>
+                           </persName>
+                           <state role="MarriedMan">
+                              <label>Homme marié</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">Tours</placeName>
+                              </name>
+                           </birth>
+                        </person>
+                        <person sex="F" role="Couturière" age="47">
+                           <persName>
+                              <forename>Celina</forename>
+                              <surname type="birth">Breton</surname>
+                              <surname type="married">Deslain</surname>
+                           </persName>
+                           <state role="MarriedWoman">
+                              <label>Femme mariée</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">
+                                    <choice>
+                                       <orig>d°</orig>
+                                       <corr>Tours</corr>
+                                    </choice>
+                                 </placeName>
+                              </name>
+                           </birth>
+                        </person>
+                        <person sex="F" role="Fille" age="11">
+                           <persName>
+                              <forename>Anne Celina</forename>
+                              <surname type="birth">Breton</surname>
+                           </persName>
+                           <state role="Girl">
+                              <label>Fille</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">
+                                    <choice>
+                                       <orig>d°</orig>
+                                       <corr>Tours</corr>
+                                    </choice>
+                                 </placeName>
+                              </name>
+                           </birth>
+                        </person>
+                     </listPerson>
+                  </div>
+                  <div type="numéro" subtype="numéroMénage" n="16">
+                     <listPerson>
+                        <person sex="M" role="Journalier" age="42">
+                           <persName>
+                              <forename>Pierre</forename>
+                              <surname type="birth">Genevrier</surname>
+                           </persName>
+                           <state role="MarriedMan">
+                              <label>Homme marié</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">
+                                    <choice>
+                                       <orig>d°</orig>
+                                       <corr>Tours</corr>
+                                    </choice>
+                                 </placeName>
+                              </name>
+                           </birth>
+                        </person>
+                        <person sex="F" role="Femme" age="36">
+                           <persName>
+                              <forename>Gabrielle</forename>
+                              <surname type="birth">Besset</surname>
+                              <surname type="married">Genevrier</surname>
+                           </persName>
+                           <state role="MarriedWoman">
+                              <label>Femme mariée</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">
+                                    <choice>
+                                       <orig>d°</orig>
+                                       <corr>Tours</corr>
+                                    </choice>
+                                 </placeName>
+                              </name>
+                           </birth>
+                        </person>
+                        <person sex="F" role="Couturière" age="18">
+                           <persName>
+                              <forename>Marie</forename>
+                              <surname type="birth">Genevrier</surname>
+                           </persName>
+                           <state role="Girl">
+                              <label>Fille</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">
+                                    <choice>
+                                       <orig>d°</orig>
+                                       <corr>Tours</corr>
+                                    </choice>
+                                 </placeName>
+                              </name>
+                           </birth>
+                        </person>
+                        <person sex="F" role="Tisseuse" age="16">
+                           <persName>
+                              <forename>Laure</forename>
+                              <surname type="birth">Genevrier</surname>
+                           </persName>
+                           <state role="Girl">
+                              <label>Fille</label>
+                           </state>
+                           <nationality key="FR">Française</nationality>
+                           <birth>
+                              <name type="place">
+                                 <placeName ref="#Tours">
+                                    <choice>
+                                       <orig>d°</orig>
+                                       <corr>Tours</corr>
+                                    </choice>
+                                 </placeName>
+                              </name>
+                           </birth>
+                        </person>
+                     </listPerson>
+                  </div>
+               </div>
+               <div type="rue" subtype="QuaiDuCanal">
+                  <div type="numéro" subtype="numéroMaison" n="1">
+                     <div type="numéro" subtype="numéroMénage" n="17">
+                        <listPerson>
+                           <person sex="M" role="Marinier" age="41">
+                              <persName>
+                                 <forename>Auguste</forename>
+                                 <surname type="birth">Moreau</surname>
+                              </persName>
+                              <state role="MarriedMan">
+                                 <label>Homme marié</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#MtL">Montlouis</placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="F" role="Femme" age="38">
+                              <persName>
+                                 <forename>Adélaïde</forename>
+                                 <surname type="birth">Arnaud</surname>
+                                 <surname type="married">Moreau</surname>
+                              </persName>
+                              <state role="MarriedWoman">
+                                 <label>Femme mariée</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#MtL">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Montlouis</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="M" role="Fils" age="10">
+                              <persName>
+                                 <forename>Auguste</forename>
+                                 <surname type="birth">Moreau</surname>
+                              </persName>
+                              <state role="Boy">
+                                 <label>Garçon</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Chap">La Chapelle</placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="F" role="Fille" age="1month">
+                              <persName>
+                                 <forename>Augustine</forename>
+                                 <surname type="birth">Moreau</surname>
+                              </persName>
+                              <state role="Girl">
+                                 <label>Fille</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours"> Tours </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                        </listPerson>
+                     </div>
+                  </div>
+                  <div type="numéro" subtype="numéroMaison" n="2">
+                     <div type="numéro" subtype="numéroMénage" n="18">
+                        <listPerson>
+                           <person sex="F" role="Propriétaire" age="63">
+                              <persName>
+                                 <forename>Clémentine</forename>
+                                 <surname type="birth">Bourdier</surname>
+                                 <surname type="widowed">Guiet</surname>
+                              </persName>
+                              <state role="Widow">
+                                 <label>Veuve</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Angers"> Angers </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="M" role="Employé" age="40">
+                              <persName>
+                                 <forename>Eugène</forename>
+                                 <surname type="birth">Guiet</surname>
+                              </persName>
+                              <state role="Boy">
+                                 <label>Garçon</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours"> Tours </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                        </listPerson>
+                     </div>
+                  </div>
+                  <div type="numéro" subtype="numéroMaison" n="3">
+                     <div type="numéro" subtype="numéroMénage" n="19">
+                        <listPerson>
+                           <person sex="F" role="Rentière" age="72">
+                              <persName>
+                                 <forename>Modeste</forename>
+                                 <surname type="birth">Treizevant</surname>
+                              </persName>
+                              <state role="Girl">
+                                 <label>Fille</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Tours">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Tours</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                        </listPerson>
+                     </div>
+                     <div type="numéro" subtype="numéroMénage" n="20">
+                        <listPerson>
+                           <person sex="M" role="Peintre" age="45">
+                              <persName>
+                                 <forename>Marie</forename>
+                                 <surname type="birth">Dousset</surname>
+                              </persName>
+                              <state role="MarriedMan">
+                                 <label>Homme marié</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Beaulieu"> Beaulieu </placeName>
+                                    <placeName ref="#IL">
+                                       <choice>
+                                          <abbr>I et L</abbr>
+                                          <expan>I<ex>ndre</ex>et L<ex>oire</ex></expan>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                           <person sex="F" role="Lingère" age="42">
+                              <persName>
+                                 <forename>Marie</forename>
+                                 <surname type="birth">Nau</surname>
+                                 <surname type="married">Dousset</surname>
+                              </persName>
+                              <state role="MarriedWoman">
+                                 <label>Femme mariée</label>
+                              </state>
+                              <nationality key="FR">Française</nationality>
+                              <birth>
+                                 <name type="place">
+                                    <placeName ref="#Beaulieu">
+                                       <choice>
+                                          <orig>d°</orig>
+                                          <corr>Beaulieu</corr>
+                                       </choice>
+                                    </placeName>
+                                 </name>
+                              </birth>
+                           </person>
+                        </listPerson>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
