@@ -12,9 +12,11 @@ I may have oversimplified certain preprinted categories in the records. While it
 
 ## What I could do to improve my encoding
 
-I did not correct any mistake from my previous encodings. For example, back in assignment 2, I chose not to properley encode the age, gender, and role of each recorded individual, but only indicating it in attributes. If I were to remake that encoding, I would use proper elements regarding age, gender, and role. However, I chose not to redo any of my encodings when generating this assignment's ODD.
+I did not correct any mistake from my previous encodings. For example, back in assignment 2, I chose not to properly encode the age, gender, and role of each recorded individual, but only indicating it in attributes. If I were to remake that encoding, I would use proper elements regarding age, gender, and role. However, I chose not to redo any of my encodings when generating this assignment's ODD.
 
 ## What I was unable to do
 
 Census records are printed as tables. I wasn't able to reproduce that aspect, so I chose to ignore that particular physical aspect.
+
+My encoding differentiates between maiden name and marital name. I forgot to make that differentiation visible in my assignment 2 encoding, and as I chose not to correct that previous asssignment,thise difference is not visible in the HTML files created for those encodings.
 
